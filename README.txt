@@ -3,7 +3,7 @@ To run 2.5D model or the proposed approach you need to first generate EP reconst
 proposed_method/script/runfdk_ep.sh
 
 This script allows you to generate EP reconstructions from sparse views with input of source-detector and object-detector distances along with number of views. You may have to modify the above script to point to the right path of your dataset.
-
+The PWLS-EP script can be run by running the runfdk_ep.sh script. The Paths in the PWLS EP folder would have to be changed to point to your dataset location.
 
 After running and saving the EP reconstructions for four and eight views, you can run the below - 
 
